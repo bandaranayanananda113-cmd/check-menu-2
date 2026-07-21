@@ -9,7 +9,7 @@
 #include <string>
 
 // Imgui library
-#import "CaptainHook.h"
+#import "Esp/CaptainHook.h"
 #import "Esp/ImGuiDrawView.h"
 #import "IMGUI/imgui.h"
 #import "IMGUI/imgui_internal.h" 
@@ -34,10 +34,10 @@ static bool MenDeal = true;
 // 1. ALL GAME OFFSETS PLACEHOLDERS (FITTED FOR ALL OPTIONS)
 // ==========================================
 // Misc Offsets
-#define OFFSET_NO_RECOIL       0x266335C  // Fake Offset Example
+#define OFFSET_NO_RECOIL       0x10A2B3C  // Fake Offset Example
 #define OFFSET_FAST_SWAP       0x10B3C4D  // Fake Offset Example
 #define OFFSET_FAST_RELOAD     0x10C4D5E  // Fake Offset Example
-#define OFFSET_TELEPORT        0x4AFBED8  // Fake Offset Example
+#define OFFSET_TELEPORT        0x10D5E6F  // Fake Offset Example
 
 // Aimbot & Engine Offsets
 #define OFFSET_AIMBOT_LOCK     0x20A1B2C  // Fake Offset Example
